@@ -20,3 +20,7 @@ body{
 	left:20%;
 	box-shadow:0 0 16px black;
 }
+
+.box:hover {
+    background: #00C4FF;
+}
