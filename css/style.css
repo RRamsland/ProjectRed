@@ -29,6 +29,8 @@ body{
 .boxC2{
     float: right;
     box-shadow: 0 0 16px #464646;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .box{
@@ -39,6 +41,7 @@ body{
     line-height: 50px;
     font-family: "Open Sans";
     box-shadow: 0 0 16px #464646;
+    border-radius: 5px;
 }
 
 .box:hover {
