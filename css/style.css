@@ -21,17 +21,32 @@ body{
     font-family: "Open Sans";
 }
 
-.box{
-	background:lightgray;
-	height:50px;
-	width:50px;
-	position:relative;
-	top:20%;
-	left:20%;
-	box-shadow:0 0 16px black;
+.boxContainer {
+    margin: 80px auto;
+    max-width: 300px;
 }
 
+.box{
+    background: lightgray;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 16px black;
+    float: left;
+
 .box:hover {
+    background: #00C4FF;
+    cursor:pointer;
+}
+
+.upgrade {
+    background: lightgray;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0 0 16px black;
+    float: right;
+}
+
+.upgrade:hover {
     background: #00C4FF;
     cursor:pointer;
 }
