@@ -32,6 +32,9 @@ body{
     width: 50px;
     box-shadow: 0 0 16px black;
     float: left;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Open Sans";
 }
 
 .box:hover {
@@ -45,6 +48,9 @@ body{
     width: 200px;
     box-shadow: 0 0 16px black;
     float: right;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Open Sans";
 }
 
 .upgrade:hover {
