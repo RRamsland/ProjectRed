@@ -23,4 +23,4 @@ body{
 
 .box:hover {
     background: #00C4FF;
-}
+    cursor:pointer;
