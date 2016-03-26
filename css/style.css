@@ -27,17 +27,18 @@ body{
 }
 
 .boxC2{
-	float: left;
+    float: right;
     box-shadow: 0 0 16px #464646;
 }
 
 .box{
     height: 50px;
-    width: 50px;
+    width: 175px;
     float: left;
     text-align: center;
     line-height: 50px;
     font-family: "Open Sans";
+    box-shadow: 0 0 16px #464646;
 }
 
 .box:hover {
@@ -46,10 +47,9 @@ body{
 }
 
 .upgrade {
-    height: 50px;
-    width: 200px;
-    box-shadow: 0 0 16px #464646;
-    float: right;
+	height: 50px;
+    width: 75px;
+    float: left;
     text-align: center;
     line-height: 50px;
     font-family: "Open Sans";
