@@ -11,6 +11,12 @@ body{
     box-shadow: 0 0 16px #565656;
 }
 
+.score{
+	width:100%;
+	height:50px;
+	border-bottom:2px solid gray;
+}
+
 .box{
 	background:lightgray;
 	height:50px;
