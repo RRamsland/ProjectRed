@@ -1,6 +1,8 @@
 	var score = 0;
 	var boxValue = 1;
 	var upgradeCost = 5;
+	var autoCost = 1000;
+	var autoBool = false;
 
 	function addScore(){
 		score += boxValue;
@@ -21,6 +23,16 @@
 			if (score<upgradeCost){
 				$(".upgrade").css("background","none");
 			}
+			if (autoBool==true){
+				setInterval(addScore, 10000);
+			}
 		}
 
+	}
+	function automate(){
+		if(score >= autoCost&&autoBool==false){
+			score-=autoCost;
+			autoBool=true;
+			setInterval(addScore, 10000);
+		}
 	}
