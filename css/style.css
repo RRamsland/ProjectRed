@@ -5,7 +5,7 @@ body{
 .ContentMain{
 	display:block;
 	max-width:800px;
-	margin:0 auto;
+	margin:5% auto;
 	background:white;
 	height: 600px;
     box-shadow: 0 0 16px #565656;
