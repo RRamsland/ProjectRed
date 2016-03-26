@@ -12,7 +12,7 @@
 			$(".score").html("$"+score);
 			boxValue+=1;
 			$(".box").html("$"+boxValue);
-			upgradeCost*=2;
+			upgradeCost = Math.round(upgradeCost*1.25);
 			$(".upgrade").html("$"+upgradeCost);
 		}
 
