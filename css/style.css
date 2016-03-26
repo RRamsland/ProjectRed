@@ -1,0 +1,20 @@
+body{
+	background:lightgray;
+}
+
+.ContentMain{
+	display:block;
+	max-width:800px;
+	margin:0 auto;
+	background:white;
+}
+
+.box{
+	background:lightgray;
+	height:50px;
+	width:50px;
+	position:relative;
+	top:20%;
+	left:20%;
+	box-shadow:0 0 16px black;
+}
