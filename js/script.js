@@ -5,6 +5,9 @@
 	function addScore(){
 		score += boxValue;
 		$(".score").html("$"+score);
+		if(score>=upgradeCost){
+			$(".upgrade").css("background","#61FF61");
+		}
 	}
 	function upgrade(){
 		if(score >= upgradeCost){
