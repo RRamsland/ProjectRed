@@ -1,4 +1,4 @@
-	var score;
+	var score = 0;
 
 	function addScore(){
 		score += 1;
