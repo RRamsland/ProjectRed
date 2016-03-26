@@ -32,6 +32,7 @@
 	function automate(){
 		if(score >= autoCost&&autoBool==false){
 			score-=autoCost;
+			$(".score").html("$"+score);
 			autoBool=true;
 			setInterval(addScore, 10000);
 		}
