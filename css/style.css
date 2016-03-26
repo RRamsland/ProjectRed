@@ -26,11 +26,15 @@ body{
     max-width: 300px;
 }
 
+.boxC2{
+	float: left;
+    box-shadow: 0 0 16px black;
+}
+
 .box{
     background: lightgray;
     height: 50px;
     width: 50px;
-    box-shadow: 0 0 16px black;
     float: left;
     text-align: center;
     line-height: 50px;
@@ -38,7 +42,7 @@ body{
 }
 
 .box:hover {
-    background: #00C4FF;
+    background: #ECECEC;
     cursor:pointer;
 }
 
@@ -54,6 +58,13 @@ body{
 }
 
 .upgrade:hover {
-    background: #00C4FF;
+    background: #ECECEC;
     cursor:pointer;
+}
+
+.automate {
+    background: #00C4FF;
+    height: 50px;
+    width: 25px;
+    float: left;
 }
