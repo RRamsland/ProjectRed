@@ -28,7 +28,7 @@ body{
 
 .boxC2{
 	float: left;
-    box-shadow: 0 0 16px black;
+    box-shadow: 0 0 16px #464646;
 }
 
 .box{
@@ -50,7 +50,7 @@ body{
     background: lightgray;
     height: 50px;
     width: 200px;
-    box-shadow: 0 0 16px black;
+    box-shadow: 0 0 16px #464646;
     float: right;
     text-align: center;
     line-height: 50px;
