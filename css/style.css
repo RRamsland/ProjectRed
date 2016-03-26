@@ -32,6 +32,7 @@ body{
     width: 50px;
     box-shadow: 0 0 16px black;
     float: left;
+}
 
 .box:hover {
     background: #00C4FF;
