@@ -17,6 +17,10 @@
 			$(".box").html("$"+boxValue);
 			upgradeCost = Math.round(upgradeCost*1.25);
 			$(".upgrade").html("$"+upgradeCost);
+
+			if (score<upgradeCost){
+				$(".upgrade").css("background","none");
+			}
 		}
 
 	}
