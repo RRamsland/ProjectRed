@@ -23,9 +23,7 @@
 			if (score<upgradeCost){
 				$(".upgrade").css("background","none");
 			}
-			if (autoBool==true){
-				setInterval(addScore, 10000);
-			}
+			
 		}
 
 	}
