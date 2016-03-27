@@ -29,14 +29,28 @@
 		}
 
 	}
+
+	$( "#progress" ).progressbar();
+	var value = 0;
+	var timer = setInterval (function (){
+  		$("#progress").progressbar ("value", value);
+  		value++;
+  		addScore;
+  		if (value > 100) clearInterval (timer);
+	}, boxTime);
+
+
 	function automate(){
 		if(score >= autoCost&&autoBool==false){
 			score-=autoCost;
 			$(".score").html("$"+score);
 			autoBool=true;
-			setInterval(addScore, boxTime);
+			//setInterval(addScore, boxTime);
+			timer;
 			if(score<upgradeCost){
 				$(".upgrade").css("background","none");
 			}
 		}
 	}
+
+	

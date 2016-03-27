@@ -17,16 +17,21 @@
         <div class="ContentMain">
             <div class="score unselectable">$0</div>
             <div class="boxContainer">
-                <div class="box unselectable" onclick="addScore()">$1</div>
+                <div class="box unselectable" onclick="addScore()">
+                $1
+                <div id="progress"></div>
+                </div>
                 <div class="boxC2">
                     <div class="upgrade unselectable" onclick="upgrade()">$5</div>
                     <div class="automate" onclick="automate()"></div>
                 </div>
         </div>
 
-
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        
+        <!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>/-->
         <script src="js/script.js"></script>
     </body>
 </html>
