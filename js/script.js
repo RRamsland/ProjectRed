@@ -33,5 +33,8 @@
 			$(".score").html("$"+score);
 			autoBool=true;
 			setInterval(addScore, 10000);
+			if(score<upgradeCost){
+				$(".upgrade").css("background","none");
+			}
 		}
 	}
