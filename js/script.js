@@ -30,14 +30,10 @@
 
 	}
 
-	$( "#progress" ).progressbar();
-	var value = 0;
-	var timer = setInterval (function (){
-  		$("#progress").progressbar ("value", value);
-  		value++;
-  		addScore;
-  		if (value > 100) clearInterval (timer);
-	}, boxTime);
+	$( "#progress" ).progressbar({
+  		max: boxTime
+	});
+
 
 
 	function automate(){
@@ -45,8 +41,26 @@
 			score-=autoCost;
 			$(".score").html("$"+score);
 			autoBool=true;
-			//setInterval(addScore, boxTime);
-			timer;
+			var cashflow = setInterval(addScore, boxTime);
+
+			var value = 0;
+			var timer = setInterval(function(){
+				$("#progress").progressbar ("value", value);
+			  	value++;
+			  	if (value > 100) value=0;
+			},1)
+
+
+
+
+			//var timer = setInterval (function (){
+  			//	$("#progress").progressbar ("value", value);
+  			//	value++;
+  			//	addScore();
+  			//	if (value > 100) clearInterval (timer);
+			//}, boxTime);
+
+
 			if(score<upgradeCost){
 				$(".upgrade").css("background","none");
 			}
