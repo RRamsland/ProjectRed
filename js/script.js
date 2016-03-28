@@ -47,7 +47,7 @@
 			var timer = setInterval(function(){
 				$("#progress").progressbar ("value", value);
 			  	value++;
-			  	if (value > 100) value=0;
+			  	if (value > boxTime) value=0;
 			},1)
 
 
